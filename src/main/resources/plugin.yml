@@ -1,0 +1,20 @@
+name: PoiAtlas
+version: 0.0.1
+main: io.razza.poiatlas.Plugin
+description: Allows players to save point of interest and optionally shares them to a Discord channel.
+author: Raresh Nistor
+website: http://github.com/itisrazza/PoiAtlas
+api-version: 1.19
+commands:
+  poi:
+    description: Displays points of interest nearby
+    usage: /<command> [name]
+  poiall:
+    description: Displays all the points of interest
+    usage: /poiall
+  poiadd:
+    description: Add a new point of interest
+    usage: /poiadd <name>
+  poirm:
+    description: Remove a point of interest
+    usage: /poirm <name>
